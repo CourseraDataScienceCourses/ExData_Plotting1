@@ -65,7 +65,7 @@ png(filename = "plot1.png", width = 480, height = 480)
 
 # Create the plot
 
-hist(df3$Global_active_power, main = "Global Active Power",
+hist(df$Global_active_power, main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)",
      ylab = "Frequency", col = "red")
 
