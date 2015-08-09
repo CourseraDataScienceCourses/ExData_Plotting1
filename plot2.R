@@ -8,7 +8,7 @@
 ##
 ## 1. Loads the data.  If needed, downloads and unzips the data set.
 ## 2. Transforms and subset the data.
-## 3. Creates a histogram plot matching the original one.
+## 3. Creates a plot matching the original one.
 ###############################################################################
 
 
@@ -60,7 +60,7 @@ df <- subset(df,
                df$Date <= as.Date("2007-02-02"))
 
 
-# Step 3 - Create a histogram plot
+# Step 3 - Create a plot
 ###############################################################################
 
 # Open PNG device
