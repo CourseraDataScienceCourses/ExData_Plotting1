@@ -12,6 +12,10 @@
 ###############################################################################
 
 
+# Set default locale for date & time
+
+Sys.setlocale("LC_TIME", "C")
+
 # The data set URL
 
 dataset.url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
