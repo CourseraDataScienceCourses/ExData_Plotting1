@@ -6,9 +6,9 @@
 ###############################################################################
 ## This script performs the following steps, in order:
 ##
-## 1. Load the data.  If needed, downloads and unzips the data set.
-## 2. Transform and subset the data.
-## 3. Create a histogram plot matching the original one.
+## 1. Loads the data.  If needed, downloads and unzips the data set.
+## 2. Transforms and subset the data.
+## 3. Creates a histogram plot matching the original one.
 ###############################################################################
 
 
